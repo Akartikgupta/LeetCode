@@ -10,15 +10,21 @@ public class Missing_Number {
 
     }
 
-    public static int missingNumber(int[] nums) {
+   public static int missingNumber(int[] nums) {
+       Arrays.sort(nums);
         int pr = 0;
-        int last = nums[nums.length - 1]; // last =5
-        int sum = last * (last + 1) / 2;// sum =15
+        int last = nums.length ; 
+        int sum = last * (last + 1) / 2;
         // calculating the sum of array's element
         for (int i = 0; i <= nums.length - 1; i++) {
             pr = pr + nums[i];
         }
+        if (pr == sum) {
+            return 0;
+        }else{
+
         return sum - pr;
+        }
 
     }
 
