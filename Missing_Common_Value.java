@@ -1,3 +1,4 @@
+import java.util.*;
 public class Missing_Common_Value {
     public static void main(String[] args) {
         int nums1[] = { 1, 2 };
