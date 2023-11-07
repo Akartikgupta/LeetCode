@@ -30,9 +30,9 @@ public class Find_Smallest_Letter_Greater_Than_Target {
                 // Search right for the end of the range
                 while (result[1] < nums.length - 1 && nums[result[1] + 1] == target) {
                     result[1]++;
-                }
-
-                break; // Target found and range determined, exit the loop
+                 }
+                // Target found and range determined, exit the loop
+                break; 
             }
         }
 
