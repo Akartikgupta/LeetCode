@@ -1,3 +1,4 @@
+
 public class BinarySearch {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 34, 45, 56, 67, 78 };
