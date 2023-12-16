@@ -1,6 +1,5 @@
 
 
-
 import java.util.*;
 // Search Insert Position
 public class Serach_Insert_Position {
