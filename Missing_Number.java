@@ -1,5 +1,4 @@
 
-
 // Approach is to find the sum of n number in an array
 //  Sn=n(n+1)/2
 // after finding the sum of n numbers
