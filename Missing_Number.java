@@ -2,7 +2,8 @@
 //  Sn=n(n+1)/2
 // after finding the sum of n numbers
 // find the sum of array's element
-// then subtract the sum - array's sum 
+// then subtract the sum - array's sum
+ 
 public class Missing_Number {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3, 5 };
